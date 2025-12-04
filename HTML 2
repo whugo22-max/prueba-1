@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mi primer sitio Web con PaaS</title>
+  <style>
+    :root{--bg:#f7fafc;--card:#ffffff;--accent:#0b5fff;--muted:#6b7280}
+    html,body{height:100%;margin:0;font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+    body{display:flex;align-items:center;justify-content:center;background:linear-gradient(180deg,#eef2ff, var(--bg));padding:2rem;}
+    .container{max-width:900px;background:var(--card);border-radius:12px;box-shadow:0 8px 30px rgba(15,23,42,0.08);padding:3rem;text-align:center;}
+    h1{margin:0;font-size:2.25rem;color:var(--accent);line-height:1.05;}
+    h2{margin:.5rem 0 1.25rem;font-size:1.05rem;color:var(--muted);font-weight:600;}
+    p{color:#111827;font-size:1rem;margin:0 auto;max-width:68ch;line-height:1.6;}
+    footer{margin-top:1.5rem;color:var(--muted);font-size:0.9rem;}
+    .badge{display:inline-block;background:#eef2ff;color:var(--accent);padding:.25rem .5rem;border-radius:999px;font-weight:600;margin-top:.75rem;}
+  </style>
+</head>
+<body>
+  <main class="container" role="main" aria-labelledby="main-title">
+    <h1 id="main-title">Mi primer sitio Web con Walter Calla Arnez</h1>
+    <h2>Maestría en Inteligencia Artificial, Machine Learning y Data Science</h2>
+    <div class="badge">Demostración práctica: GitHub + Vercel</div>
+    <p>
+      Bienvenido al portal de demostración donde exploramos el uso de plataformas <strong>PaaS (Platform as a Service)</strong>
+      para el despliegue rápido de aplicaciones web y prototipos en proyectos de Inteligencia Artificial,
+      Machine Learning y Data Science. En este sitio se muestra cómo un repositorio en GitHub puede integrarse
+      con Vercel para publicar contenido estático de forma automática y sin gestionar servidores.
+    </p>
+    <footer>
+      Actividad práctica — Maestría en Inteligencia Artificial, Machine Learning y Data Science
+    </footer>
+  </main>
+</body>
+</html>
